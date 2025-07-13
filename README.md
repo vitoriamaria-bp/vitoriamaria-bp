@@ -11,9 +11,9 @@
 </p>
 
 🚀 Sobre Mim
-Sou uma profissional em transição de carreira, atualmente cursando Técnico em Informática e mergulhando no mundo do desenvolvimento de software. Minha experiência anterior na área administrativa me deu uma base sólida em organização e planejamento, e hoje meu objetivo é aplicar essa disciplina na construção de software funcional e bem estruturado.
+<p align="center">Sou uma profissional em transição de carreira, atualmente cursando Técnico em Informática e mergulhando no mundo do desenvolvimento de software. Minha experiência anterior na área administrativa me deu uma base sólida em organização e planejamento, e hoje meu objetivo é aplicar essa disciplina na construção de software funcional e bem estruturado.
 
-Estou em busca da minha primeira oportunidade como Estagiária ou Desenvolvedora Júnior, onde eu possa aplicar e aprofundar meus conhecimentos práticos, especialmente em desenvolvimento com Java e banco de dados.
+Estou em busca da minha primeira oportunidade como Estagiária ou Desenvolvedora Júnior, onde eu possa aplicar e aprofundar meus conhecimentos práticos, especialmente em desenvolvimento com Java e banco de dados.</p>
 
 💻 Meu Projeto de Estudo Principal
 <h3 align="center">Sistema de Agendamento de Consultório</h3>
