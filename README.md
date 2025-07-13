@@ -1,4 +1,4 @@
-<h1 align="center">Olá, eu sou a Vitória Maria Bezerra Pinheiro! 👋</h1>
+<h1 align="center">Olá! Eu sou a Vitória Maria Bezerra Pinheiro! 👋</h1>
 <h3 align="center">Estudante de tecnologia, focada em transformar problemas em soluções com código.</h3>
 
 <p align="center">
@@ -38,7 +38,6 @@ Este é meu projeto de portfólio principal, desenvolvido para aplicar na práti
 <strong>Ferramentas e Design</strong><br>
 <img src="https://img.shields.io/badge/NetBeans-1B6AC6?style=for-the-badge&logo=apache-netbeans-ide&logoColor=white" alt="NetBeans"/>
 <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma"/>
-<img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
 </p>
 
 🌱 Atualmente Aprendendo
