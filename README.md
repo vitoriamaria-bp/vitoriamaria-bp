@@ -1,4 +1,4 @@
-<h1 align="center">Olá! Eu sou a Vitória Maria Bezerra Pinheiro! 👋</h1>
+<h1 align="center">Olá, eu sou a Vitória Maria Bezerra Pinheiro! 👋</h1>
 <h3 align="center">Estudante de tecnologia, focada em transformar problemas em soluções com código.</h3>
 
 <p align="center">
@@ -11,9 +11,9 @@
 </p>
 
 🚀 Sobre Mim
-<p align="center">Sou uma profissional em transição de carreira, atualmente cursando Técnico em Informática e mergulhando no mundo do desenvolvimento de software. Minha experiência anterior na área administrativa me deu uma base sólida em organização e planejamento, e hoje meu objetivo é aplicar essa disciplina na construção de software funcional e bem estruturado.
+Sou uma profissional em transição de carreira, atualmente cursando Técnico em Informática e mergulhando no mundo do desenvolvimento de software. Minha experiência anterior na área administrativa me deu uma base sólida em organização e planejamento, e hoje meu objetivo é aplicar essa disciplina na construção de software funcional e bem estruturado.
 
-Estou em busca da minha primeira oportunidade como Estagiária ou Desenvolvedora Júnior, onde eu possa aplicar e aprofundar meus conhecimentos práticos, especialmente em desenvolvimento com Java e banco de dados.</p>
+Estou em busca da minha primeira oportunidade como Estagiária ou Desenvolvedora Júnior, onde eu possa aplicar e aprofundar meus conhecimentos práticos, especialmente em desenvolvimento com Java e banco de dados.
 
 💻 Meu Projeto de Estudo Principal
 <h3 align="center">Sistema de Agendamento de Consultório</h3>
@@ -38,6 +38,7 @@ Este é meu projeto de portfólio principal, desenvolvido para aplicar na práti
 <strong>Ferramentas e Design</strong><br>
 <img src="https://img.shields.io/badge/NetBeans-1B6AC6?style=for-the-badge&logo=apache-netbeans-ide&logoColor=white" alt="NetBeans"/>
 <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma"/>
+<img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
 </p>
 
 🌱 Atualmente Aprendendo
