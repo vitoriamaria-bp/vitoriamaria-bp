@@ -13,6 +13,7 @@ Sou uma profissional em transição de carreira, atualmente cursando Técnico em
 Estou em busca da minha primeira oportunidade como Estagiária ou Desenvolvedora Júnior, onde eu possa aplicar e aprofundar meus conhecimentos práticos, especialmente em desenvolvimento com Java e banco de dados.
 
 💻 Meu Projeto de Estudo Principal
+
 <h3 align="center">Sistema de Agendamento de Consultório</h3>
 
 <p align="center">
@@ -28,6 +29,7 @@ Conceitos aplicados: Arquitetura em Camadas (Model, View, DAO), Conexão com Ban
 </p>
 
 🛠️ Habilidades e Ferramentas
+
 <p align="center">
 <strong>Linguagens & Banco de Dados</strong><br>
 <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
@@ -49,7 +51,8 @@ Aprimoramento em Java: Reforçando os conceitos de Orientação a Objetos e expl
 Boas Práticas de Código: Estudando sobre como escrever um código mais limpo e organizado.
 
 📊 Minhas Estatísticas no GitHub
+
 <p align="center">
 <img src="https://github-readme-stats.vercel.app/api?username=vitoriamaria-bp&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" alt="Estatísticas do GitHub"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vitoriamaria-bp&layout=compact&langs_count=7&theme=dracula" alt="Linguagens mais usadas"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vitoriamaria-bp&layout=compact&langs_count=7&theme=dracula&count_private=true" alt="Linguagens mais usadas"/>
 </p>
