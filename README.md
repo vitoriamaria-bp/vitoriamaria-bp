@@ -30,7 +30,7 @@
 
 Sou uma profissional em transição de carreira, trazendo uma bagagem sólida da área **Administrativa e Financeira**. Essa experiência me ensinou que organização, processos e atenção aos detalhes são a chave para qualquer projeto de sucesso — habilidades que hoje aplico no meu código.
 
-Atualmente curso **Técnico em Informática no Senac**, onde construo minha base em lógica e back-end, enquanto me especializo em Front-end para o mercado Freelance.
+Atualmente curso **Técnico em Informática no Senac**, onde construo minha base em lógica e back-end, enquanto me especializo em Front-end para o mercado.
 
 * 🔭 **Foco Atual:** Desenvolvimento Web Responsivo (Mobile First) e IA.
 * 📚 **Base Acadêmica:** Lógica de Programação, SQL, Java e Python.
