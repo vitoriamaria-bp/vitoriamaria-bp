@@ -1,0 +1,114 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreelAcademy - Onde Projetos Encontram Talentos</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="{% static 'css/global.css' %}">
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+</head>
+<body>
+
+    <header class="header-home">
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo-standard">
+                    <span style="color: var(--primary);">Fr<span style="color: var(--secondary);">ee</span>lacademy</span>
+                    <img src="{% static 'img/logo-passaro-original.svg' %}" alt="Pássaro">
+                </a>
+
+                <div class="nav-links">
+                    <a href="projetos.html">Buscar Projetos</a>
+                    <a href="freelancers.html">Encontrar Freelancers</a>
+                    <a href="#como-funciona">Como Funciona</a>
+                    <a href="login.html" class="btn-login">Entrar</a>
+                    <a href="cadastro.html" class="btn-register">Cadastre-se</a>
+                </div>
+
+                <button class="mobile-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Contrate os Melhores<br>Profissionais Tech.</h1>
+            <p>Plataforma segura para projetos de desenvolvimento, design e infraestrutura.</p>
+            <div>
+                <a href="cadastro.html" class="btn-hero btn-fill">Quero Contratar</a>
+                <a href="cadastro.html" class="btn-hero btn-border">Sou Freelancer</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="como-funciona" class="features">
+        <div class="container">
+            <div class="section-title">
+                <h2>Como Funciona</h2>
+                <p>Simples, transparente e focado em projetos.</p>
+            </div>
+            <div class="grid-features">
+                <div class="feature-card">
+                    <div class="icon-box"><i class="fas fa-bullhorn"></i></div>
+                    <h3>1. Publique</h3>
+                    <p>Descreva seu projeto e receba propostas em minutos.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-box"><i class="fas fa-handshake"></i></div>
+                    <h3>2. Contrate</h3>
+                    <p>Compare currículos, avalie perfis e negocie diretamente.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-box"><i class="fas fa-shield-alt"></i></div>
+                    <h3>3. Gerencie e Pague</h3>
+                    <p>Pagamento protegido até a entrega final do trabalho.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-profissional">
+        <div class="container">
+            <div class="row-footer">
+                <div class="footer-col">
+                    <h4>FreelAcademy</h4>
+                    <p>Conectando talentos a oportunidades reais.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Navegação</h4>
+                    <ul>
+                        <li><a href="projetos.html">Projetos</a></li>
+                        <li><a href="freelancers.html">Freelancers</a></li>
+                        <li><a href="planos.html">Planos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Suporte</h4>
+                    <ul>
+                        <li><a href="faq.html">Ajuda e FAQ</a></li>
+                        <li><a href="regras.html">Disputas</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacidade.html">Privacidade</a></li>
+                        <li><a href="termos.html">Termos de Uso</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 FreelAcademy Tecnologia Ltda.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="{% static 'js/scripts.js' %}"></script>
+</body>
+</html>
