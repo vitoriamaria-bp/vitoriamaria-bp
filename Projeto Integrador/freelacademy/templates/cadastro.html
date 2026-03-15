@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro | FreelAcademy</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="{% static \'css/global.css\' %}">
-    <link rel="stylesheet" href="{% static \'css/auth.css\' %}">
+    <link rel="stylesheet" href="{% static 'css/global.css' %}">
+    <link rel="stylesheet" href="{% static 'css/auth.css' %}">
 </head>
 <body>
 
@@ -18,9 +18,9 @@
         <div class="auth-box">
             
             <div class="auth-header">
-                <a href="index.html" class="logo-auth">
+                <a href="{% url 'index' %}" class="logo-auth">
                     <span>Fr<span style="color: var(--secondary);">ee</span>lacademy</span>
-                    <img src="{% static \'img/logo-passaro-original.svg\' %}" alt="Pássaro">
+                    <img src="{% static 'img/logo-passaro-original.svg' %}" alt="Pássaro">
                 </a>
                 <p>Crie sua conta gratuita em segundos.</p>
             </div>
@@ -68,7 +68,7 @@
                 <div class="check-wrapper">
                     <input type="checkbox" required id="lgpd-check">
                     <label for="lgpd-check">
-                        Li e concordo com os <a href="termos.html" target="_blank">Termos de Uso</a> e a <a href="privacidade.html" target="_blank">Política de Privacidade</a>.
+                        Li e concordo com os <a href="{% url 'termos' %}" target="_blank">Termos de Uso</a> e a <a href="{% url 'privacidade' %}" target="_blank">Política de Privacidade</a>.
                     </label>
                 </div>
 
@@ -76,7 +76,7 @@
             </form>
 
             <div class="auth-footer">
-                Já tem cadastro? <a href="login.html">Fazer Login</a>
+                Já tem cadastro? <a href="{% url 'login' %}">Fazer Login</a>
                 <div style="margin-top: 15px; font-size: 0.75rem; color: #aaa;">
                     &copy; 2025 FreelAcademy Tecnologia.
                 </div>
@@ -84,6 +84,6 @@
         </div>
     </div>
 
-    <script src="{% static \'js/scripts.js\' %}"></script>
+    <script src="{% static 'js/scripts.js' %}"></script>
 </body>
 </html>

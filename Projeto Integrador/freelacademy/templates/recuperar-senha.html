@@ -18,7 +18,7 @@
         <div class="auth-box">
             
             <div class="auth-header">
-                <a href="index.html" class="logo-auth">
+                <a href="{% url 'index' %}" class="logo-auth">
                     <span>Fr<span style="color: var(--secondary);">ee</span>lacademy</span>
                     <img src="{% static 'img/logo-passaro-original.svg' %}" alt="Pássaro FreelAcademy">
                 </a>
@@ -35,7 +35,7 @@
             </form>
 
             <div class="auth-footer">
-                Lembrou da senha? <a href="login.html">Voltar para o Login</a>
+                Lembrou da senha? <a href="{% url 'login' %}">Voltar para o Login</a>
                 <div style="margin-top: 15px; font-size: 0.75rem; color: #aaa;">
                     &copy; 2026 FreelAcademy Tecnologia.
                 </div>

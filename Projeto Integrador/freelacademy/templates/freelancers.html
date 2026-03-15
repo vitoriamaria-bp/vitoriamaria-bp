@@ -20,12 +20,12 @@
     <header class="header-home">
         <div class="container">
             <nav>
-                <a href="index.html" class="logo-standard">
+                <a href="{% url 'index' %}" class="logo-standard">
                     <span style="color: var(--primary);">Fr<span style="color: var(--secondary);">ee</span>lacademy</span>
                 </a>
                 <div class="nav-links">
-                    <a href="projetos.html">Projetos</a>
-                    <a href="cadastro.html" class="btn-register">Quero ser Freelancer</a>
+                    <a href="{% url 'projetos' %}">Projetos</a>
+                    <a href="{% url 'cadastro' %}" class="btn-register">Quero ser Freelancer</a>
                 </div>
             </nav>
         </div>
@@ -43,7 +43,7 @@
                 <h3 style="color: var(--primary);">Carlos Mendes</h3>
                 <p style="color: #666; font-size: 0.9rem; margin-bottom: 15px;">Fullstack Developer</p>
                 <div style="color: #f1c40f; margin-bottom: 20px;"><i class="fas fa-star"></i> 5.0 (42 avaliações)</div>
-                <a href="login.html" class="btn-hero btn-fill" style="width: 100%; display: block; border: none; font-size: 0.9rem;">Contratar Agora</a>
+                <a href="{% url 'login' %}" class="btn-hero btn-fill" style="width: 100%; display: block; border: none; font-size: 0.9rem;">Contratar Agora</a>
             </div>
         </div>
     </main>
@@ -54,22 +54,22 @@
                 <div class="footer-col">
                     <h4>Navegação</h4>
                     <ul>
-                        <li><a href="index.html">Início</a></li>
-                        <li><a href="projetos.html">Projetos</a></li>
+                        <li><a href="{% url 'index' %}">Início</a></li>
+                        <li><a href="{% url 'projetos' %}">Projetos</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
                     <h4>Suporte</h4>
                     <ul>
-                        <li><a href="faq.html">Ajuda & FAQ</a></li>
-                        <li><a href="contato.html">Contato</a></li>
+                        <li><a href="{% url 'faq' %}">Ajuda & FAQ</a></li>
+                        <li><a href="{% url 'contato' %}">Contato</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
                     <h4>Legal</h4>
                     <ul>
-                        <li><a href="privacidade.html">Privacidade</a></li>
-                        <li><a href="termos.html">Termos de Uso</a></li>
+                        <li><a href="{% url 'privacidade' %}">Privacidade</a></li>
+                        <li><a href="{% url 'termos' %}">Termos de Uso</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">

@@ -18,7 +18,7 @@
         <div class="auth-box">
             
             <div class="auth-header">
-                <a href="index.html" class="logo-auth">
+                <a href="{% url 'index' %}" class="logo-auth">
                     <span>Fr<span style="color: var(--secondary);">ee</span>lAcademy</span>
                     <img src="{% static 'img/logo-passaro-original.svg' %}" alt="Pássaro FreelAcademy">
                 </a>
@@ -60,13 +60,13 @@
                         <input type="checkbox" id="lembrar-mim">
                         <label for="lembrar-mim">Lembrar de mim</label>
                     </div>
-                    <a href="recuperar-senha.html" style="font-size: 0.9rem; color: var(--secondary); text-decoration: none; font-weight: 600;">Esqueci a senha</a>
+                    <a href="{% url 'recuperar_senha' %}" style="font-size: 0.9rem; color: var(--secondary); text-decoration: none; font-weight: 600;">Esqueci a senha</a>
                 </div>
 
                 <div class="check-wrapper">
                     <input type="checkbox" required id="login-termos">
                     <label for="login-termos">
-                        Li e concordo com os <a href="termos.html" target="_blank">Termos de Uso</a> e a <a href="privacidade.html" target="_blank">Política de Privacidade</a>.
+                        Li e concordo com os <a href="{% url 'termos' %}" target="_blank">Termos de Uso</a> e a <a href="{% url 'privacidade' %}" target="_blank">Política de Privacidade</a>.
                     </label>
                 </div>
 
@@ -74,7 +74,7 @@
             </form>
 
             <div class="auth-footer">
-                Não tem conta? <a href="cadastro.html">Cadastre-se</a>
+                Não tem conta? <a href="{% url 'cadastro' %}">Cadastre-se</a>
                 <div style="margin-top: 15px; font-size: 0.75rem; color: #aaa;">
                     &copy; 2025 FreelAcademy Tecnologia.
                 </div>

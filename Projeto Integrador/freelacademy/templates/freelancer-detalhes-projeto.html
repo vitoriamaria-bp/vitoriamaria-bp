@@ -14,7 +14,7 @@
     <header class="top-bar">
         <div class="top-bar-left">
             <button class="toggle-sidebar-btn" id="toggleSidebar"><i class="fas fa-bars"></i></button>
-            <a href="index.html" class="logo-top">
+            <a href="{% url 'index' %}" class="logo-top">
                 <img src="{% static 'img/logo-passaro-original.svg' %}" alt="FreelAcademy">
                 <span>Fr<span style="color: var(--secondary);">ee</span>lAcademy</span>
             </a>
@@ -36,14 +36,14 @@
         <aside class="sidebar" id="sidebar">
             <nav>
                 <ul class="sidebar-menu">
-                    <li><a href="freelancer-home.html"><i class="fas fa-home"></i> <span>Visão Geral</span></a></li>
-                    <li><a href="freelancer-buscar-projetos.html" class="active"><i class="fas fa-search"></i> <span>Buscar Projetos</span></a></li>
-                    <li><a href="freelancer-baixar-app.html"><i class="fas fa-download"></i> <span>Baixar App Desktop</span></a></li>
-                    <li><a href="freelancer-portfolio.html"><i class="fas fa-star"></i> <span>Meu Portfólio</span></a></li>
-                    <li><a href="freelancer-chat.html"><i class="fas fa-comments"></i> <span>Mensagens</span></a></li>
-                    <li><a href="freelancer-carteira.html"><i class="fas fa-wallet"></i> <span>Carteira (R$)</span></a></li>
+                    <li><a href="{% url 'freelancer_home' %}"><i class="fas fa-home"></i> <span>Visão Geral</span></a></li>
+                    <li><a href="{% url 'freelancer_buscar_projetos' %}" class="active"><i class="fas fa-search"></i> <span>Buscar Projetos</span></a></li>
+                    <li><a href="{% url 'freelancer_baixar_app' %}"><i class="fas fa-download"></i> <span>Baixar App Desktop</span></a></li>
+                    <li><a href="{% url 'freelancer_portfolio' %}"><i class="fas fa-star"></i> <span>Meu Portfólio</span></a></li>
+                    <li><a href="{% url 'freelancer_chat' %}"><i class="fas fa-comments"></i> <span>Mensagens</span></a></li>
+                    <li><a href="{% url 'freelancer_carteira' %}"><i class="fas fa-wallet"></i> <span>Carteira (R$)</span></a></li>
                     <li class="menu-separator"></li>
-                    <li><a href="freelancer-configuracoes.html"><i class="fas fa-cog"></i> <span>Configurações</span></a></li>
+                    <li><a href="{% url 'freelancer_configuracoes' %}"><i class="fas fa-cog"></i> <span>Configurações</span></a></li>
                 </ul>
             </nav>
         </aside>
@@ -52,7 +52,7 @@
             
             <div class="page-header" style="display: flex; justify-content: space-between; align-items: center;">
                 <div>
-                    <a href="freelancer-buscar-projetos.html" style="color: var(--secondary); text-decoration: none; font-size: 0.9rem; font-weight: 600;">
+                    <a href="{% url 'freelancer_buscar_projetos' %}" style="color: var(--secondary); text-decoration: none; font-size: 0.9rem; font-weight: 600;">
                         <i class="fas fa-arrow-left"></i> Voltar para busca
                     </a>
                     <h2 style="margin-top: 10px;">E-commerce React Completo</h2>
@@ -90,6 +90,6 @@
             </div>
         </main>
     </div>
-    <script src="{% static \'js/scripts.js\' %}"></script>
+    <script src="{% static 'js/scripts.js' %}"></script>
 </body>
 </html>

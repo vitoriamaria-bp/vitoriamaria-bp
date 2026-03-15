@@ -16,17 +16,17 @@
     <header class="header-home">
         <div class="container">
             <nav>
-                <a href="index.html" class="logo-standard">
+                <a href="{% url 'index' %}" class="logo-standard">
                     <span style="color: var(--primary);">Fr<span style="color: var(--secondary);">ee</span>lacademy</span>
                     <img src="{% static 'img/logo-passaro-original.svg' %}" alt="Pássaro">
                 </a>
 
                 <div class="nav-links">
-                    <a href="projetos.html">Buscar Projetos</a>
-                    <a href="freelancers.html">Encontrar Freelancers</a>
+                    <a href="{% url 'projetos' %}">Buscar Projetos</a>
+                    <a href="{% url 'freelancers' %}">Encontrar Freelancers</a>
                     <a href="#como-funciona">Como Funciona</a>
-                    <a href="login.html" class="btn-login">Entrar</a>
-                    <a href="cadastro.html" class="btn-register">Cadastre-se</a>
+                    <a href="{% url 'login' %}" class="btn-login">Entrar</a>
+                    <a href="{% url 'cadastro' %}" class="btn-register">Cadastre-se</a>
                 </div>
 
                 <button class="mobile-toggle">
@@ -41,8 +41,8 @@
             <h1>Contrate os Melhores<br>Profissionais Tech.</h1>
             <p>Plataforma segura para projetos de desenvolvimento, design e infraestrutura.</p>
             <div>
-                <a href="cadastro.html" class="btn-hero btn-fill">Quero Contratar</a>
-                <a href="cadastro.html" class="btn-hero btn-border">Sou Freelancer</a>
+                <a href="{% url 'cadastro' %}" class="btn-hero btn-fill">Quero Contratar</a>
+                <a href="{% url 'cadastro' %}" class="btn-hero btn-border">Sou Freelancer</a>
             </div>
         </div>
     </section>
@@ -83,23 +83,23 @@
                 <div class="footer-col">
                     <h4>Navegação</h4>
                     <ul>
-                        <li><a href="projetos.html">Projetos</a></li>
-                        <li><a href="freelancers.html">Freelancers</a></li>
-                        <li><a href="planos.html">Planos</a></li>
+                        <li><a href="{% url 'projetos' %}">Projetos</a></li>
+                        <li><a href="{% url 'freelancers' %}">Freelancers</a></li>
+                        <li><a href="{% url 'planos' %}">Planos</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
                     <h4>Suporte</h4>
                     <ul>
-                        <li><a href="faq.html">Ajuda e FAQ</a></li>
-                        <li><a href="regras.html">Disputas</a></li>
+                        <li><a href="{% url 'faq' %}">Ajuda e FAQ</a></li>
+                        <li><a href="{% url 'regras' %}">Disputas</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
                     <h4>Legal</h4>
                     <ul>
-                        <li><a href="privacidade.html">Privacidade</a></li>
-                        <li><a href="termos.html">Termos de Uso</a></li>
+                        <li><a href="{% url 'privacidade' %}">Privacidade</a></li>
+                        <li><a href="{% url 'termos' %}">Termos de Uso</a></li>
                     </ul>
                 </div>
             </div>

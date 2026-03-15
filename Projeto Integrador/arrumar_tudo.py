@@ -3,27 +3,10 @@ import re
 from pathlib import Path
 
 def arrumar_projeto():
-    print("Iniciando correção automática do projeto...")
+    print("Iniciando correção automática dos links...")
     
-    # 1. ARRUMAR O SETTINGS.PY (Caminho do CSS)
-    settings_path = Path('setup/settings.py')
-    if settings_path.exists():
-        conteudo = settings_path.read_text(encoding='utf-8')
-        
-        # Limpa qualquer configuração antiga de STATICFILES_DIRS para evitar erros
-        conteudo = re.sub(r'STATICFILES_DIRS\s*=\s*\[.*?\]', '', conteudo, flags=re.DOTALL)
-        
-        # Adiciona a configuração exata apontando para a pasta 'assets'
-        config_estaticos = "\n# Configuração inserida automaticamente para carregar o CSS\nSTATICFILES_DIRS = [\n    BASE_DIR / 'templates' / 'static' / 'assets',\n]\n"
-        conteudo += config_estaticos
-        
-        settings_path.write_text(conteudo, encoding='utf-8')
-        print("✅ setup/settings.py atualizado (Caminho do CSS corrigido).")
-    else:
-        print("❌ Erro: Arquivo setup/settings.py não encontrado.")
-
-    # 2. ARRUMAR OS LINKS NOS HTMLS
-    templates_dir = Path('templates')
+    # AQUI ESTAVA O ERRO: Agora aponta para a pasta correta!
+    templates_dir = Path('freelacademy/templates')
     
     # Dicionário que mapeia o nome do arquivo antigo para o nome da rota no Django
     mapa_urls = {
@@ -69,11 +52,9 @@ def arrumar_projeto():
                 
             filepath.write_text(texto_html, encoding='utf-8')
         
-        print(f"✅ {len(arquivos_html)} arquivos HTML foram varridos e tiveram seus links atualizados.")
+        print(f"✅ {len(arquivos_html)} arquivos HTML foram varridos e tiveram seus links atualizados com sucesso!")
     else:
-        print("❌ Erro: Pasta 'templates' não encontrada.")
-
-    print("\nTudo pronto! O CSS e a navegação devem funcionar agora.")
+        print(f"❌ Erro: Pasta '{templates_dir}' não encontrada. Verifique se você está na pasta 'Projeto Integrador'.")
 
 if __name__ == '__main__':
     arrumar_projeto()

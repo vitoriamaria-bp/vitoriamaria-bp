@@ -125,6 +125,9 @@ STATIC_URL = 'static/'
 
 
 AUTH_USER_MODEL = 'freelacademy.Usuario'
+
+# Configuração inserida automaticamente para carregar o CSS
+
 # Configuração inserida automaticamente para carregar o CSS
 STATICFILES_DIRS = [
     BASE_DIR / 'templates' / 'static' / 'assets',

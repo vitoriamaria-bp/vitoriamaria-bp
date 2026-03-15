@@ -6,16 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Painel Cliente | FreelAcademy</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="{% static \'css/global.css\' %}">
-    <link rel="stylesheet" href="{% static \'css/dashboard.css\' %}">
+    <link rel="stylesheet" href="{% static 'css/global.css' %}">
+    <link rel="stylesheet" href="{% static 'css/dashboard.css' %}">
 </head>
 <body>
 
     <header class="top-bar">
         <div class="top-bar-left">
             <button class="toggle-sidebar-btn" id="toggleSidebar"><i class="fas fa-bars"></i></button>
-            <a href="index.html" class="logo-top">
-                <img src="{% static \'img/logo-passaro-original.svg\' %}" alt="FreelAcademy">
+            <a href="{% url 'index' %}" class="logo-top">
+                <img src="{% static 'img/logo-passaro-original.svg' %}" alt="FreelAcademy">
                 <span>Fr<span style="color: var(--secondary);">ee</span>lAcademy</span>
             </a>
         </div>
@@ -33,19 +33,19 @@
         <aside class="sidebar" id="sidebar">
             <nav>
                 <ul class="sidebar-menu">
-                    <li><a href="cliente-home.html" class="active"><i class="fas fa-home"></i> <span>Visão Geral</span></a></li>
-                    <li><a href="cliente-novo-projeto.html"><i class="fas fa-plus-circle"></i> <span>Publicar Projeto</span></a></li>
-                    <li><a href="cliente-detalhes-projeto.html"><i class="fas fa-folder-open"></i> <span>Meus Projetos</span></a></li>
-                    <li><a href="cliente-buscar-freelancers.html"><i class="fas fa-users"></i> <span>Freelancers</span></a></li>
+                    <li><a href="{% url 'cliente_home' %}" class="active"><i class="fas fa-home"></i> <span>Visão Geral</span></a></li>
+                    <li><a href="{% url 'criar_projeto' %}"><i class="fas fa-plus-circle"></i> <span>Publicar Projeto</span></a></li>
+                    <li><a href="{% url 'cliente_detalhes_projeto' %}"><i class="fas fa-folder-open"></i> <span>Meus Projetos</span></a></li>
+                    <li><a href="{% url 'cliente_buscar_freelancers' %}"><i class="fas fa-users"></i> <span>Freelancers</span></a></li>
                     <li><a href="chat.html"><i class="fas fa-comments"></i> <span>Mensagens</span></a></li>
-                    <li><a href="cliente-financeiro.html"><i class="fas fa-file-invoice-dollar"></i> <span>Financeiro</span></a></li>
+                    <li><a href="{% url 'cliente_financeiro' %}"><i class="fas fa-file-invoice-dollar"></i> <span>Financeiro</span></a></li>
                     <li class="menu-separator"></li>
-                    <li><a href="cliente-configuracoes.html"><i class="fas fa-cog"></i> <span>Configurações</span></a></li>
+                    <li><a href="{% url 'cliente_configuracoes' %}"><i class="fas fa-cog"></i> <span>Configurações</span></a></li>
                 </ul>
             </nav>
             <div class="sidebar-footer">
-                <a href="faq.html" class="footer-link"><i class="far fa-question-circle"></i> <span>Ajuda</span></a>
-                <a href="login.html" class="footer-link" style="color: #ff8a8a; margin-top: 15px;" onclick="realizarLogout()">
+                <a href="{% url 'faq' %}" class="footer-link"><i class="far fa-question-circle"></i> <span>Ajuda</span></a>
+                <a href="{% url 'login' %}" class="footer-link" style="color: #ff8a8a; margin-top: 15px;" onclick="realizarLogout()">
                     <i class="fas fa-sign-out-alt"></i> <span>Sair</span>
                 </a>
             </div>
@@ -59,7 +59,7 @@
                     <p>Você tem <strong>3 propostas novas</strong> aguardando sua análise.</p>
                 </div>
                 <div>
-                    <a href="cliente-novo-projeto.html" class="btn-action-hero"><i class="fas fa-plus"></i> Publicar Projeto</a>
+                    <a href="{% url 'criar_projeto' %}" class="btn-action-hero"><i class="fas fa-plus"></i> Publicar Projeto</a>
                 </div>
             </div>
 
@@ -73,7 +73,7 @@
             <div class="table-box">
                 <div class="table-header">
                     <h3>Atividades Recentes</h3>
-                    <a href="cliente-detalhes-projeto.html" style="color: var(--secondary); text-decoration: none; font-weight: 700; font-size: 0.9rem;">Ver Todos</a>
+                    <a href="{% url 'cliente_detalhes_projeto' %}" style="color: var(--secondary); text-decoration: none; font-weight: 700; font-size: 0.9rem;">Ver Todos</a>
                 </div>
                 <table>
                     <thead>
@@ -90,7 +90,7 @@
                                 <div style="display: flex; align-items: center;">
                                     <div class="cat-icon cat-dev"><i class="fas fa-code"></i></div>
                                     <div class="project-info">
-                                        <a href="cliente-detalhes-projeto.html" class="project-title" style="text-decoration: none;">E-commerce React</a>
+                                        <a href="{% url 'cliente_detalhes_projeto' %}" class="project-title" style="text-decoration: none;">E-commerce React</a>
                                         <span class="project-cat">Desenvolvimento • ID: #9021</span>
                                     </div>
                                 </div>
@@ -99,14 +99,14 @@
                                 <div class="proposal-count"><i class="fas fa-user-friends"></i> 5 Propostas<span class="proposal-new">NEW</span></div>
                             </td>
                             <td><span class="badge badge-pending">Recebendo</span></td>
-                            <td style="text-align: right;"><a href="cliente-detalhes-projeto.html" class="btn-manage">Gerenciar</a></td>
+                            <td style="text-align: right;"><a href="{% url 'cliente_detalhes_projeto' %}" class="btn-manage">Gerenciar</a></td>
                         </tr>
                         <tr class="row-item" tabindex="0">
                             <td>
                                 <div style="display: flex; align-items: center;">
                                     <div class="cat-icon cat-design"><i class="fas fa-pen-nib"></i></div>
                                     <div class="project-info">
-                                        <a href="cliente-detalhes-projeto.html" class="project-title" style="text-decoration: none;">Redesign de Marca</a>
+                                        <a href="{% url 'cliente_detalhes_projeto' %}" class="project-title" style="text-decoration: none;">Redesign de Marca</a>
                                         <span class="project-cat">Design • ID: #8832</span>
                                     </div>
                                 </div>
@@ -115,14 +115,14 @@
                                 <div class="proposal-count"><i class="fas fa-user-friends"></i> 12 Propostas</div>
                             </td>
                             <td><span class="badge badge-active">Em Andamento</span></td>
-                            <td style="text-align: right;"><a href="cliente-detalhes-projeto.html" class="btn-manage">Gerenciar</a></td>
+                            <td style="text-align: right;"><a href="{% url 'cliente_detalhes_projeto' %}" class="btn-manage">Gerenciar</a></td>
                         </tr>
                         <tr class="row-item" tabindex="0">
                             <td>
                                 <div style="display: flex; align-items: center;">
                                     <div class="cat-icon cat-infra" style="background: #e6f4ea; color: #1e8e3e; padding: 10px; border-radius: 8px;"><i class="fas fa-server"></i></div>
                                     <div class="project-info">
-                                        <a href="cliente-detalhes-projeto.html" class="project-title" style="text-decoration: none;">Configuração de Servidor</a>
+                                        <a href="{% url 'cliente_detalhes_projeto' %}" class="project-title" style="text-decoration: none;">Configuração de Servidor</a>
                                         <span class="project-cat">Infraestrutura • ID: #7710</span>
                                     </div>
                                 </div>
@@ -139,6 +139,6 @@
             
         </main>
     </div>
-    <script src="{% static \'js/scripts.js\' %}"></script>
+    <script src="{% static 'js/scripts.js' %}"></script>
 </body>
 </html>
