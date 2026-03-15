@@ -1,0 +1,198 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configurações | FreelAcademy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="{% static \'css/global.css\' %}">
+    <link rel="stylesheet" href="{% static \'css/dashboard.css\' %}">
+</head>
+<body>
+
+    <header class="top-bar">
+        <div class="top-bar-left">
+            <button class="toggle-sidebar-btn" id="toggleSidebar"><i class="fas fa-bars"></i></button>
+            <a href="index.html" class="logo-top">
+                <img src="{% static \'img/logo-passaro-original.svg\' %}" alt="FreelAcademy">
+                <span>Fr<span style="color: var(--secondary);">ee</span>lAcademy</span>
+            </a>
+        </div>
+        <div class="top-bar-right">
+            <button class="notification-btn"><i class="far fa-bell"></i><span class="notification-badge"></span></button>
+            <div class="user-menu" tabindex="0">
+                <img src="https://images.unsplash.com/photo-1560179707-f14e90ef3623?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" class="user-avatar" alt="User">
+                <div class="user-info">
+                    <span class="user-name">Tech Solutions</span>
+                    <span class="user-role">Cliente</span>
+                </div>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="dashboard-wrapper">
+        <aside class="sidebar" id="sidebar">
+            <nav>
+                <ul class="sidebar-menu">
+                    <li><a href="cliente-home.html"><i class="fas fa-home"></i> <span>Visão Geral</span></a></li>
+                    <li><a href="cliente-novo-projeto.html"><i class="fas fa-plus-circle"></i> <span>Publicar Projeto</span></a></li>
+                    <li><a href="cliente-detalhes-projeto.html"><i class="fas fa-folder-open"></i> <span>Meus Projetos</span></a></li>
+                    <li><a href="cliente-buscar-freelancers.html"><i class="fas fa-users"></i> <span>Freelancers</span></a></li>
+                    <li><a href="cliente-chat.html"><i class="fas fa-comments"></i> <span>Mensagens</span></a></li>
+                    <li><a href="cliente-financeiro.html"><i class="fas fa-file-invoice-dollar"></i> <span>Financeiro</span></a></li>
+                    <li class="menu-separator"></li>
+                    <li><a href="cliente-configuracoes.html" class="active"><i class="fas fa-cog"></i> <span>Configurações</span></a></li>
+                </ul>
+            </nav>
+            <div class="sidebar-footer">
+                <a href="faq.html" class="footer-link"><i class="far fa-question-circle"></i> <span>Ajuda</span></a>
+                <a href="login.html" class="footer-link" onclick="realizarLogout()">
+                    <i class="fas fa-sign-out-alt"></i> <span>Sair</span>
+                </a>
+            </div>
+        </aside>
+
+        <main class="main-content" id="mainContent">
+            
+            <div class="page-header">
+                <h2>Configurações da Conta</h2>
+                <p>Gerencie seus dados e preferências.</p>
+            </div>
+
+            <div class="settings-layout">
+                
+                <div class="settings-sidebar">
+                    <button class="settings-nav-btn active" onclick="abrirAbaConfig('aba-perfil', this)"><i class="fas fa-user-circle"></i> Perfil Público</button>
+                    <button class="settings-nav-btn" onclick="abrirAbaConfig('aba-seguranca', this)"><i class="fas fa-lock"></i> Segurança</button>
+                    <button class="settings-nav-btn" onclick="abrirAbaConfig('aba-notificacoes', this)"><i class="fas fa-bell"></i> Notificações</button>
+                    <button class="settings-nav-btn" onclick="abrirAbaConfig('aba-pagamento', this)"><i class="fas fa-credit-card"></i> Pagamento</button>
+                    <div class="menu-separator"></div>
+                    <button class="settings-nav-btn text-danger" onclick="abrirAbaConfig('aba-perigo', this)"><i class="fas fa-exclamation-triangle"></i> Zona de Perigo</button>
+                </div>
+
+                <div class="settings-content-area">
+                    
+                    <div id="aba-perfil" class="settings-pane active">
+                        <h3 class="form-section-title pane-title">Dados da Empresa</h3>
+                        
+                        <div class="profile-edit-header">
+                            <img src="https://images.unsplash.com/photo-1560179707-f14e90ef3623?ixlib=rb-1.2.1&auto=format&fit=crop&w=150&q=80" class="profile-img-large" alt="Foto da Empresa">
+                            <button class="btn-change-photo">Alterar Foto</button>
+                        </div>
+                        
+                        <div class="form-group-spacing">
+                            <label class="dash-label">Nome de Exibição</label>
+                            <input type="text" class="dash-input" value="Tech Solutions Ltda">
+                        </div>
+                        
+                        <div class="form-group-spacing">
+                            <label class="dash-label">Cargo / Função</label>
+                            <input type="text" class="dash-input" value="Gerente de Projetos">
+                        </div>
+                        
+                        <div class="form-group-spacing-lg">
+                            <label class="dash-label">Sobre a Empresa</label>
+                            <textarea class="dash-textarea">Empresa focada em soluções tecnológicas para o varejo.</textarea>
+                        </div>
+                        
+                        <button class="btn-primary" onclick="alert('Perfil salvo!')">Salvar Perfil</button>
+                    </div>
+
+                    <div id="aba-seguranca" class="settings-pane">
+                        <h3 class="form-section-title pane-title">Credenciais de Acesso</h3>
+                        
+                        <div class="form-group-spacing-lg">
+                            <label class="dash-label">E-mail de Cadastro</label>
+                            <input type="email" class="dash-input" value="contato@techsolutions.com" disabled>
+                            <span class="input-hint">Para mudar o e-mail, contate o suporte.</span>
+                        </div>
+                        
+                        <div class="form-group-spacing">
+                            <label class="dash-label">Senha Atual</label>
+                            <input type="password" class="dash-input" placeholder="••••••••">
+                        </div>
+                        
+                        <div class="form-group-spacing">
+                            <label class="dash-label">Nova Senha</label>
+                            <input type="password" class="dash-input" placeholder="Mínimo 8 caracteres">
+                        </div>
+                        
+                        <div class="form-group-spacing-lg">
+                            <label class="dash-label">Confirmar Nova Senha</label>
+                            <input type="password" class="dash-input" placeholder="Repita a nova senha">
+                        </div>
+                        
+                        <button class="btn-primary" onclick="alert('Senha alterada!')">Atualizar Senha</button>
+                    </div>
+
+                    <div id="aba-notificacoes" class="settings-pane">
+                        <h3 class="form-section-title pane-title">Preferências de Alertas</h3>
+                        
+                        <div class="notification-item">
+                            <div>
+                                <h5 class="dash-label" style="margin-bottom: 2px;">Novas Propostas</h5>
+                                <span class="input-hint" style="margin: 0;">Receber e-mail quando um freelancer aplicar.</span>
+                            </div>
+                            <input type="checkbox" checked class="notification-checkbox">
+                        </div>
+                        
+                        <div class="notification-item">
+                            <div>
+                                <h5 class="dash-label" style="margin-bottom: 2px;">Mensagens do Chat</h5>
+                                <span class="input-hint" style="margin: 0;">Notificar quando receber mensagem direta.</span>
+                            </div>
+                            <input type="checkbox" checked class="notification-checkbox">
+                        </div>
+
+                        <div class="notification-item">
+                            <div>
+                                <h5 class="dash-label" style="margin-bottom: 2px;">Newsletter</h5>
+                                <span class="input-hint" style="margin: 0;">Receber dicas e novidades da plataforma.</span>
+                            </div>
+                            <input type="checkbox" class="notification-checkbox">
+                        </div>
+                        
+                        <button class="btn-primary" style="margin-top: 25px;" onclick="alert('Preferências salvas!')">Salvar Preferências</button>
+                    </div>
+
+                    <div id="aba-pagamento" class="settings-pane">
+                        <h3 class="form-section-title pane-title">Cartões Salvos</h3>
+                        
+                        <div class="credit-card-preview">
+                            <div class="cc-number">**** **** **** 8832</div>
+                            <div class="cc-info">
+                                <span>Tech Solutions</span>
+                                <span>12/28</span>
+                            </div>
+                        </div>
+                        
+                        <button class="btn-add-card">
+                            <i class="fas fa-plus"></i> Adicionar Novo Cartão
+                        </button>
+                    </div>
+
+                    <div id="aba-perigo" class="settings-pane">
+                        <h3 class="form-section-title pane-title text-danger">Encerramento de Conta</h3>
+                        <p style="color: #666; margin-bottom: 20px;">Ao desativar sua conta, seus projetos abertos serão pausados.</p>
+                        <button class="btn-delete-account">Desativar Minha Conta</button>
+                    </div>
+
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <script>
+        function abrirAbaConfig(idAba, botaoClicado) {
+            document.querySelectorAll('.settings-pane').forEach(aba => aba.classList.remove('active'));
+            document.querySelectorAll('.settings-nav-btn').forEach(btn => btn.classList.remove('active'));
+            document.getElementById(idAba).classList.add('active');
+            botaoClicado.classList.add('active');
+        }
+    </script>
+    <script src="{% static \'js/scripts.js\' %}"></script>
+</body>
+</html>

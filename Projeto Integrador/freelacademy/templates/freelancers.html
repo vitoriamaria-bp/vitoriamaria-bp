@@ -1,0 +1,88 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Encontrar Talentos | FreelAcademy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="{% static 'css/global.css' %}">
+    <link rel="stylesheet" href="{% static 'css/dashboard.css' %}">
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+    <style>
+        .freelancer-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 25px; margin-top: 40px; margin-bottom: 80px; }
+        .free-card { background: #fff; border-radius: 15px; padding: 25px; border: 1px solid #eee; text-align: center; transition: 0.3s; }
+        .free-card:hover { transform: translateY(-5px); box-shadow: 0 10px 25px rgba(0,0,0,0.05); }
+        .free-avatar { width: 90px; height: 90px; border-radius: 50%; object-fit: cover; margin-bottom: 15px; border: 3px solid #f0f7ff; }
+    </style>
+</head>
+<body style="background: #f4f7f9;">
+
+    <header class="header-home">
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo-standard">
+                    <span style="color: var(--primary);">Fr<span style="color: var(--secondary);">ee</span>lacademy</span>
+                </a>
+                <div class="nav-links">
+                    <a href="projetos.html">Projetos</a>
+                    <a href="cadastro.html" class="btn-register">Quero ser Freelancer</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container" style="padding-top: 130px;">
+        <div style="background: var(--primary); color: #fff; padding: 60px; border-radius: 20px; text-align: center;">
+            <h1 style="font-size: 3rem; color: #fff;">Sua equipe de elite começa aqui</h1>
+            <p style="font-size: 1.2rem; opacity: 0.9;">Milhares de profissionais tech prontos para o seu projeto.</p>
+        </div>
+
+        <div class="freelancer-grid">
+            <div class="free-card">
+                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150" class="free-avatar" alt="Dev">
+                <h3 style="color: var(--primary);">Carlos Mendes</h3>
+                <p style="color: #666; font-size: 0.9rem; margin-bottom: 15px;">Fullstack Developer</p>
+                <div style="color: #f1c40f; margin-bottom: 20px;"><i class="fas fa-star"></i> 5.0 (42 avaliações)</div>
+                <a href="login.html" class="btn-hero btn-fill" style="width: 100%; display: block; border: none; font-size: 0.9rem;">Contratar Agora</a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer-profissional">
+        <div class="container">
+            <div class="row-footer">
+                <div class="footer-col">
+                    <h4>Navegação</h4>
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="projetos.html">Projetos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Suporte</h4>
+                    <ul>
+                        <li><a href="faq.html">Ajuda & FAQ</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacidade.html">Privacidade</a></li>
+                        <li><a href="termos.html">Termos de Uso</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Endereço</h4>
+                    <p style="color: #bbb; font-size: 0.9rem; line-height: 1.6;">
+                        <i class="fas fa-map-marker-alt"></i> Taboão da Serra, SP
+                    </p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 FreelAcademy Tecnologia Ltda.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
