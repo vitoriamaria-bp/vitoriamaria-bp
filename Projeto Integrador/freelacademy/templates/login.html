@@ -16,7 +16,6 @@
         <div class="auth-overlay"></div>
 
         <div class="auth-box">
-            
             <div class="auth-header">
                 <a href="{% url 'index' %}" class="logo-auth">
                     <span>Fr<span style="color: var(--secondary);">ee</span>lAcademy</span>
@@ -25,7 +24,18 @@
                 <p>Bem-vindo de volta! Acesse sua conta.</p>
             </div>
 
-            <form id="formLogin">
+            {% if messages %}
+                <div style="margin-bottom: 20px;">
+                    {% for message in messages %}
+                        <div style="padding: 10px; border-radius: 4px; color: white; background-color: {% if message.tags == 'error' %}#d93025{% else %}#1e8e3e{% endif %}; font-size: 0.9rem;">
+                            {{ message }}
+                        </div>
+                    {% endfor %}
+                </div>
+            {% endif %}
+
+            <form id="formLoginDjango" method="POST" action="{% url 'login' %}">
+                {% csrf_token %}
                 
                 <label class="form-label">Acessar como:</label>
                 <div class="type-selector" style="margin-bottom: 20px;">
@@ -47,12 +57,12 @@
 
                 <div class="form-group">
                     <label class="form-label">E-mail</label>
-                    <input type="email" id="emailLogin" class="form-input" placeholder="seu@email.com" required>
+                    <input type="email" name="email" class="form-input" placeholder="seu@email.com" required>
                 </div>
 
                 <div class="form-group" style="margin-bottom: 10px;">
                     <label class="form-label">Senha</label>
-                    <input type="password" id="senhaLogin" class="form-input" placeholder="••••••••" required>
+                    <input type="password" name="senha" class="form-input" placeholder="••••••••" required>
                 </div>
 
                 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px;">
@@ -63,25 +73,14 @@
                     <a href="{% url 'recuperar_senha' %}" style="font-size: 0.9rem; color: var(--secondary); text-decoration: none; font-weight: 600;">Esqueci a senha</a>
                 </div>
 
-                <div class="check-wrapper">
-                    <input type="checkbox" required id="login-termos">
-                    <label for="login-termos">
-                        Li e concordo com os <a href="{% url 'termos' %}" target="_blank">Termos de Uso</a> e a <a href="{% url 'privacidade' %}" target="_blank">Política de Privacidade</a>.
-                    </label>
-                </div>
-
-                <button type="submit" class="btn-submit" style="margin-top: 10px;">Entrar</button>
+                <button type="submit" class="btn-submit" style="margin-top: 10px;">Entrar Segurança SSL</button>
             </form>
 
             <div class="auth-footer">
                 Não tem conta? <a href="{% url 'cadastro' %}">Cadastre-se</a>
-                <div style="margin-top: 15px; font-size: 0.75rem; color: #aaa;">
-                    &copy; 2025 FreelAcademy Tecnologia.
-                </div>
             </div>
         </div>
     </div>
-
     <script src="{% static 'js/scripts.js' %}"></script>
 </body>
 </html>
