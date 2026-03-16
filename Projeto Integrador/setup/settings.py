@@ -123,12 +123,12 @@ STATIC_URL = 'static/'
 
 # CONFIGURAÇÃO OBRIGATÓRIA PARA O CSS FUNCIONAR
 
+# Configuração inserida automaticamente para carregar o CSS
+STATIC_URL = 'static/'
+
+# Esta é a bússola correta para a sua estrutura do GitHub
+STATICFILES_DIRS = [
+    BASE_DIR / 'freelacademy' / 'templates' / 'static' / 'assets',
+]
 
 AUTH_USER_MODEL = 'freelacademy.Usuario'
-
-# Configuração inserida automaticamente para carregar o CSS
-
-# Configuração inserida automaticamente para carregar o CSS
-STATICFILES_DIRS = [
-    BASE_DIR / 'templates' / 'static' / 'assets',
-]
