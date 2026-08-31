@@ -74,7 +74,8 @@ Estou em constante evolução e aberta a explorar as diversas vertentes da tecno
 ### 📊 Estatísticas GitHub
 
 <div align="center">
-  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=vitoriamaria-bp&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&hide_border=true"/>
-  <br>
-  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vitoriamaria-bp&layout=compact&langs_count=8&theme=dracula&hide_border=true"/>
+  <img src="https://raw.githubusercontent.com/vitoriamaria-bp/vitoriamaria-bp/main/profile-summary-card-output/github_dark/0-profile-details.svg" alt="Detalhes do perfil GitHub"/>
+  <br><br>
+  <img src="https://raw.githubusercontent.com/vitoriamaria-bp/vitoriamaria-bp/main/profile-summary-card-output/github_dark/3-stats.svg" alt="Estatísticas GitHub"/>
+  <img src="https://raw.githubusercontent.com/vitoriamaria-bp/vitoriamaria-bp/main/profile-summary-card-output/github_dark/1-repos-per-language.svg" alt="Linguagens dos repositórios"/>
 </div>
