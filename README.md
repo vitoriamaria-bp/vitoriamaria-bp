@@ -1,81 +1,186 @@
 <div align="center">
-  <img style="border-radius: 50%; border: 4px solid #00d2d3;" src="https://avatars.githubusercontent.com/u/193200253?v=4" width="150px;" alt="Avatar Vitória Maria"/>
-  
-  <h1>Olá, eu sou a Vitória Maria! 👋</h1>
-  
-  <h3>
-    Bacharelanda em Ciência da Computação | Desenvolvedora de Software
-  </h3>
-  
-  <p>
-    <em>"Transformando desafios lógicos em soluções digitais eficientes e organizadas."</em>
-  </p>
 
-  <p>
-    <a href="https://www.linkedin.com/in/vitoria-maria-bezerra-pinheiro-439478217" target="_blank">
-      <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-    </a>
-    <a href="mailto:vitoriamariabezerra72@gmail.com">
-      <img src="https://img.shields.io/badge/-Gmail-%23D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
-    </a>
-  </p>
-</div>
+<img src="https://github.com/vitoriamaria-bp.png" width="150" alt="Foto de perfil da Vitória Maria"/>
 
-<br>
+# Olá, eu sou a Vitória Maria 👋
 
-## 👩‍💻 Sobre Mim
+### Estudante de Ciência da Computação | Desenvolvimento de Software e Dados
 
-Sou estudante de **Ciência da Computação** com uma trajetória que une o rigor da área administrativa à lógica da programação. Atualmente, foco no desenvolvimento de soluções que priorizam a organização de dados e a funcionalidade de sistemas.
+Construindo experiência em **programação, bancos de dados e organização de dados**, com foco atual no fortalecimento de **Python e SQL**.
 
-Estou em constante evolução e aberta a explorar as diversas vertentes da tecnologia, desde a arquitetura de software até a segurança e automação. Meu objetivo é construir uma base técnica sólida para criar softwares que resolvam problemas reais de forma eficaz.
-
-* 🔭 **Interesses:** Desenvolvimento de Software, Automação, Dados e Segurança.
-* 📚 **Base Acadêmica:** Bacharelado em Ciência da Computação — Focada em algoritmos, estrutura de dados e engenharia de software.
-* 🐧 **Entusiasta Linux:** Admiradora do ecossistema pinguim e de ferramentas que otimizam o fluxo de trabalho.
-* 🎯 **Objetivo:** Contribuir em projetos inovadores, explorando diferentes tecnologias e desafios lógicos.
-
----
-
-## 📂 Repositórios em Destaque
-
-| Projeto | Descrição | Tecnologias |
-| :--- | :--- | :--- |
-| **[freelacademy-turma21](https://github.com/vitoriamaria-bp/freelacademy-turma21)** | Plataforma para gestão de serviços e usuários. | `Django` `Python` `SQL` |
-| **[sistema-agendamento-consultorio](https://github.com/vitoriamaria-bp/sistema-agendamento-consultorio)** | Aplicação para gerenciamento de dados e fluxos internos. | `Java` `JDBC` `SQL Server` |
-| **[cyber-setup-ecommerce](https://github.com/vitoriamaria-bp/cyber-setup-ecommerce)** | Interface responsiva voltada para experiência do usuário. | `HTML5` `CSS3` `JS` |
-| **[estudos-faculdade-fecaf](https://github.com/vitoriamaria-bp/estudos-faculdade-fecaf)** | Registro de evolução e fundamentos da computação. | `Python` `Lógica` |
-
----
-
-## 🛠️ Tecnologias e Ferramentas
-
-<div align="center">
-
-**Linguagens e Frameworks**<br>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
-<img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white"/>
-
-**Dados e Infraestrutura**<br>
-<img src="https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white"/>
-<img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white"/>
-<img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black"/>
-
-**Web e Design**<br>
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/>
-<img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white"/>
+<p>
+  <a href="https://www.linkedin.com/in/vitoria-maria-bezerra-pinheiro-439478217">
+    <img src="https://img.shields.io/badge/LinkedIn-00C2D1?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="mailto:vitoriamariabezerra72@gmail.com">
+    <img src="https://img.shields.io/badge/E--mail-FF7A30?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail"/>
+  </a>
+</p>
 
 </div>
 
 ---
 
-### 📊 Estatísticas GitHub
+## 👩‍💻 Sobre mim
+
+Sou estudante de **Ciência da Computação na UniFECAF** e atualmente atuo como **Jovem Aprendiz na Global HITSS**, apoiando atividades relacionadas a projetos, controles e organização de informações.
+
+Estou construindo gradualmente minha atuação técnica em TI, com interesse principalmente em **dados, bancos de dados e desenvolvimento de software**.
+
+Durante minha formação, venho praticando programação, lógica, banco de dados, desenvolvimento web, versionamento e organização de projetos. Meu foco atual é consolidar os fundamentos que já estudei e aumentar minha autonomia para desenvolver e compreender soluções técnicas.
+
+---
+
+## 🎯 Atualmente desenvolvendo
+
+<p>
+  <img src="https://img.shields.io/badge/Python-0F172A?style=flat-square&logo=python&logoColor=00C2D1" alt="Python"/>
+  <img src="https://img.shields.io/badge/SQL-0F172A?style=flat-square&logo=databricks&logoColor=00C2D1" alt="SQL"/>
+  <img src="https://img.shields.io/badge/MySQL-0F172A?style=flat-square&logo=mysql&logoColor=FF7A30" alt="MySQL"/>
+  <img src="https://img.shields.io/badge/Excel-0F172A?style=flat-square&logo=microsoftexcel&logoColor=2ECC71" alt="Excel"/>
+  <img src="https://img.shields.io/badge/Lógica_de_Programação-0F172A?style=flat-square&logo=codeforces&logoColor=FF7A30" alt="Lógica de Programação"/>
+  <img src="https://img.shields.io/badge/Bancos_de_Dados_Relacionais-0F172A?style=flat-square&logo=database&logoColor=00C2D1" alt="Bancos de Dados Relacionais"/>
+</p>
+
+### Outros conhecimentos e práticas
+
+<p>
+  <img src="https://img.shields.io/badge/HTML5-0F172A?style=flat-square&logo=html5&logoColor=FF7A30" alt="HTML5"/>
+  <img src="https://img.shields.io/badge/CSS3-0F172A?style=flat-square&logo=css&logoColor=00C2D1" alt="CSS3"/>
+  <img src="https://img.shields.io/badge/JavaScript-0F172A?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/Git-0F172A?style=flat-square&logo=git&logoColor=FF7A30" alt="Git"/>
+  <img src="https://img.shields.io/badge/GitHub-0F172A?style=flat-square&logo=github&logoColor=E8EDF5" alt="GitHub"/>
+  <img src="https://img.shields.io/badge/GitHub_Codespaces-0F172A?style=flat-square&logo=github&logoColor=00C2D1" alt="GitHub Codespaces"/>
+</p>
+
+---
+
+## 📂 Projetos e estudos selecionados
+
+### 🎓 Core Study
+
+Plataforma educacional iniciada como projeto acadêmico em equipe utilizando **Python e banco de dados**, originalmente executada pelo terminal.
+
+Participei da **modelagem conceitual do banco de dados** e da reorganização da navegação em menus e submenus.
+
+Posteriormente, conduzi individualmente uma evolução do projeto para Web, utilizando IA como apoio intensivo para implementar novas funcionalidades, interface e refinamentos a partir da base original.
+
+<p>
+  <img src="https://img.shields.io/badge/Python-0F172A?style=flat-square&logo=python&logoColor=00C2D1" alt="Python"/>
+  <img src="https://img.shields.io/badge/Flask-0F172A?style=flat-square&logo=flask&logoColor=E8EDF5" alt="Flask"/>
+  <img src="https://img.shields.io/badge/MySQL-0F172A?style=flat-square&logo=mysql&logoColor=FF7A30" alt="MySQL"/>
+  <img src="https://img.shields.io/badge/HTML5-0F172A?style=flat-square&logo=html5&logoColor=FF7A30" alt="HTML5"/>
+  <img src="https://img.shields.io/badge/CSS3-0F172A?style=flat-square&logo=css&logoColor=00C2D1" alt="CSS3"/>
+  <img src="https://img.shields.io/badge/JavaScript-0F172A?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript"/>
+</p>
+
+➡️ [Ver Core Study](https://github.com/vitoriamaria-bp/core-study)
+
+---
+
+### 📊 Projeto Vendas
+
+Conjunto de atividades acadêmicas utilizado para praticar **Python, SQL e MySQL**, incluindo consultas, relatórios e operações CRUD.
+
+O repositório reúne exercícios envolvendo agregações, relacionamentos entre tabelas e integração entre Python e banco de dados.
+
+<p>
+  <img src="https://img.shields.io/badge/Python-0F172A?style=flat-square&logo=python&logoColor=00C2D1" alt="Python"/>
+  <img src="https://img.shields.io/badge/SQL-0F172A?style=flat-square&logo=databricks&logoColor=00C2D1" alt="SQL"/>
+  <img src="https://img.shields.io/badge/MySQL-0F172A?style=flat-square&logo=mysql&logoColor=FF7A30" alt="MySQL"/>
+  <img src="https://img.shields.io/badge/CRUD-0F172A?style=flat-square&logo=database&logoColor=2ECC71" alt="CRUD"/>
+</p>
+
+➡️ [Ver Projeto Vendas](https://github.com/vitoriamaria-bp/projeto-vendas)
+
+---
+
+### 🛒 Cyber Setup
+
+E-commerce demonstrativo criado como prática de desenvolvimento Web, com catálogo de produtos, busca, detalhes dos itens, carrinho persistido localmente e gerenciamento de produtos utilizando Firebase.
+
+Também possui geração de pedido para envio pelo WhatsApp.
+
+<p>
+  <img src="https://img.shields.io/badge/HTML5-0F172A?style=flat-square&logo=html5&logoColor=FF7A30" alt="HTML5"/>
+  <img src="https://img.shields.io/badge/CSS3-0F172A?style=flat-square&logo=css&logoColor=00C2D1" alt="CSS3"/>
+  <img src="https://img.shields.io/badge/JavaScript-0F172A?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/Firebase-0F172A?style=flat-square&logo=firebase&logoColor=FF7A30" alt="Firebase"/>
+</p>
+
+➡️ [Ver Cyber Setup](https://github.com/vitoriamaria-bp/cyber-setup-ecommerce)
+
+---
+
+## 🧰 Ferramentas e organização
+
+### Versionamento e ambiente de desenvolvimento
+
+<p>
+  <img src="https://img.shields.io/badge/Git-0F172A?style=flat-square&logo=git&logoColor=FF7A30" alt="Git"/>
+  <img src="https://img.shields.io/badge/GitHub-0F172A?style=flat-square&logo=github&logoColor=E8EDF5" alt="GitHub"/>
+  <img src="https://img.shields.io/badge/GitHub_Codespaces-0F172A?style=flat-square&logo=github&logoColor=00C2D1" alt="GitHub Codespaces"/>
+</p>
+
+Uso essas ferramentas em projetos pessoais e acadêmicos para versionamento, organização de repositórios, branches e colaboração.
+
+### Metodologias e organização
+
+<p>
+  <img src="https://img.shields.io/badge/Kanban-0F172A?style=flat-square&logo=kanban&logoColor=00C2D1" alt="Kanban"/>
+  <img src="https://img.shields.io/badge/Scrum-0F172A?style=flat-square&logo=scrumalliance&logoColor=FF7A30" alt="Scrum"/>
+  <img src="https://img.shields.io/badge/Trello-0F172A?style=flat-square&logo=trello&logoColor=00C2D1" alt="Trello"/>
+  <img src="https://img.shields.io/badge/Miro-0F172A?style=flat-square&logo=miro&logoColor=F7C922" alt="Miro"/>
+</p>
+
+Já utilizei esses recursos em projetos acadêmicos para planejamento, divisão de tarefas, acompanhamento do desenvolvimento e retrospectivas.
+
+### Prototipação
+
+<p>
+  <img src="https://img.shields.io/badge/Figma-0F172A?style=flat-square&logo=figma&logoColor=FF7A30" alt="Figma"/>
+</p>
+
+Utilizado para criação e refinamento de interfaces e protótipos em atividades e projetos.
+
+---
+
+## 🤖 IA no meu processo de desenvolvimento
+
+Utilizo ferramentas de inteligência artificial como apoio à **pesquisa, prototipação, compreensão de erros, revisão e desenvolvimento de projetos**.
+
+A IA faz parte do meu processo de aprendizagem, e atualmente busco reduzir a distância entre aquilo que consigo construir com apoio dessas ferramentas e aquilo que consigo **entender, explicar, testar e desenvolver com autonomia**.
+
+---
+
+## 🎓 Formação
+
+**Bacharelado em Ciência da Computação — UniFECAF**  
+2026 — 2029 *(previsão de conclusão)*
+
+---
+
+## 📊 Estatísticas GitHub
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/vitoriamaria-bp/vitoriamaria-bp/main/profile-summary-card-output/github_dark/0-profile-details.svg" alt="Detalhes do perfil GitHub"/>
-  <br><br>
-  <img src="https://raw.githubusercontent.com/vitoriamaria-bp/vitoriamaria-bp/main/profile-summary-card-output/github_dark/3-stats.svg" alt="Estatísticas GitHub"/>
-  <img src="https://raw.githubusercontent.com/vitoriamaria-bp/vitoriamaria-bp/main/profile-summary-card-output/github_dark/1-repos-per-language.svg" alt="Linguagens dos repositórios"/>
+
+<img src="./profile-summary-card-output/github_dark/0-profile-details.svg" alt="Detalhes do perfil GitHub"/>
+
+<br><br>
+
+<img src="./profile-summary-card-output/github_dark/3-stats.svg" alt="Estatísticas GitHub"/>
+<img src="./profile-summary-card-output/github_dark/1-repos-per-language.svg" alt="Linguagens presentes nos repositórios"/>
+
+</div>
+
+---
+
+<div align="center">
+
+## 📫 Contato
+
+Busco oportunidades de **estágio em Tecnologia** que me permitam desenvolver experiência prática, aprofundar meus conhecimentos e contribuir em projetos reais.
+
+[LinkedIn](https://www.linkedin.com/in/vitoria-maria-bezerra-pinheiro-439478217) • [E-mail](mailto:vitoriamariabezerra72@gmail.com)
+
 </div>
