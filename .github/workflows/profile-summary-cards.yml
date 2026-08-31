@@ -29,6 +29,7 @@ jobs:
           EXCLUDE: "TypeScript"
           AUTO_PUSH: false
           THEME: "github_dark"
+          NAME: "Vitória Maria"
 
       - name: Aplicar identidade visual do portfólio
         shell: bash
